@@ -1,7 +1,5 @@
 # BraidTrack 360: Operator Industrial Hub
 
-![BraidTrack 360 Banner](https://picsum.photos/seed/industrial/1200/400)
-
 **BraidTrack 360** is a high-end SaaS industrial monitoring platform designed for smart factory management. It features real-time analytics, machine health tracking, and operator performance metrics wrapped in a futuristic, immersive UI.
 
 ## 🚀 Features
