@@ -1,6 +1,6 @@
 # BraidTrack 360: Operator Industrial Hub
 
-
+![BraidTrack 360 Banner](https://picsum.photos/seed/industrial/1200/400)
 
 **BraidTrack 360** is a high-end SaaS industrial monitoring platform designed for smart factory management. It features real-time analytics, machine health tracking, and operator performance metrics wrapped in a futuristic, immersive UI.
 
@@ -68,6 +68,22 @@ The application includes a demo login screen with pre-filled credentials for tes
 - **Add Machine**: Navigate to the "Machines" tab and click "Add New Machine".
 - **Manage Operators**: Navigate to the "Operators" tab to add or view operator profiles.
 - **Configure Machines**: Click "Configure" on any machine card to update its status or production metrics.
+
+## 🚀 Deployment
+
+### Netlify
+
+This project is configured for easy deployment on Netlify.
+
+1. **Push to GitHub**: Ensure your project is pushed to a GitHub repository.
+2. **New Site from Git**: Log in to Netlify and select "New site from Git".
+3. **Connect Repository**: Choose your repository.
+4. **Build Settings**: Netlify should automatically detect the settings from `netlify.toml`:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+5. **Deploy**: Click "Deploy site".
+
+The included `netlify.toml` file handles the configuration for you, including SPA redirect rules.
 
 ## 📄 License
 
